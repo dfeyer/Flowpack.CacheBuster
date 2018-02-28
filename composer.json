@@ -1,6 +1,6 @@
 {
     "name": "flowpack/cachebuster",
-    "type": "neos-package",
+    "type": "typo3-flow-package",
     "description": "Cache buster for static resources in Neos",
     "license": "MIT",
     "authors": [
@@ -10,11 +10,11 @@
         }
     ],
     "require": {
-        "neos/flow": "^4.0"
+        "neos/flow": "^3.0"
     },
     "autoload": {
-        "psr-4": {
-            "Flowpack\\CacheBuster\\": "Classes"
+        "psr-0": {
+            "Flowpack\\CacheBuster": "Classes"
         }
     }
 }
